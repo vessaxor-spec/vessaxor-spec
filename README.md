@@ -35,3 +35,38 @@
 <sub><strong>Models are temporary. Systems endure.</strong></sub>
 
 </div>
+
+---
+
+## Selected Systems
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### [The Ever-Evolving Orchestration](https://github.com/vessaxor-spec/The-ever-evolving-orchestration-)
+
+**Vendor-neutral orchestration specification**
+
+A runnable reference control plane for resolving responsibility, capability, routing, fallback, authority, and independent verification across changing models and providers.
+
+`v1.0.0` · `reference_operational`
+
+**Models evolve. Responsibilities endure.**
+
+</td>
+<td width="50%" valign="top">
+
+### [GroX](https://github.com/vessaxor-spec/GroX)
+
+**Persistent AI command environment**
+
+An independent Vessel built around bounded authority, durable state, evidence-bearing execution, recovery, governed capability expansion, and a clear command relationship.
+
+`v0.7.0` · `APEX QUALIFIED`
+
+**Commander → GorXu → Divisions → Crew**
+
+</td>
+</tr>
+</table>
