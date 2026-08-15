@@ -1,0 +1,15 @@
+[profile]
+as_of = "August 2026"
+
+[projects.teo]
+repository = "vessaxor-spec/The-ever-evolving-orchestration-"
+status = "reference_operational"
+focus = "Durable host-integration assimilation across sessions, with framework validation kept distinct from empirical real-host proof."
+
+[projects.grox]
+repository = "vessaxor-spec/GroX"
+status = "APEX QUALIFIED"
+focus = "Stewardship of the Apex-qualified baseline, preserving authority, evidence, recovery, and verifier independence through future evolution."
+
+[research]
+focus = "Persistent continuity, governed autonomy, and verification as system properties rather than model features."
