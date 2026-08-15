@@ -83,11 +83,11 @@ An independent Vessel built around bounded authority, durable state, evidence-be
 
 ## Builder Profile
 
-I work at the intersection of **strategic operations, partner ecosystems, circular economy, and human development**, and I am an **ICF-accredited coach**.
+I build and maintain **AI systems, orchestration architectures, and autonomous-agent research** through versioned repositories, executable implementations, tests, and evidence-backed releases.
 
-That background shapes how I build AI: as operating environments where capability, authority, evidence, continuity, and human judgment must coexist. My interest is not making a model appear intelligent. It is designing the surrounding system so intelligence can be **useful, accountable, persistent, and replaceable**.
+My GitHub work focuses on turning architectural ideas into systems that can be inspected, challenged, reproduced, and evolved without losing authority boundaries, continuity, or verification discipline.
 
-<sub>Operator by profession. Systems builder by obsession.</sub>
+<sub>Build the system. Preserve the evidence. Evolve deliberately.</sub>
 
 ---
 
