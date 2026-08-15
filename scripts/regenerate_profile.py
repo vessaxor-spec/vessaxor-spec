@@ -54,9 +54,14 @@ def validate_freshness(status: dict) -> date:
     except ValueError as exc:
         raise ValueError("profile.reviewed_at must use YYYY-MM-DD") from exc
 
-    age_days = (date.today() - reviewed_at).days
-    if age_days < 0:
-        raise ValueError("profile.reviewed_at cannot be in the future")
+    raw_age_days = (date.today() - reviewed_at).days
+    # GitHub-hosted runners evaluate date in UTC. A curator east of UTC may
+    # legitimately record the next local calendar day while the runner is still
+    # on the previous UTC day. Tolerate only that single-day timezone boundary.
+    if raw_age_days < -1:
+        raise ValueError("profile.reviewed_at is more than one day in the future")
+
+    age_days = max(raw_age_days, 0)
     if age_days > max_age_days:
         raise RuntimeError(
             "curated profile state is stale: "
