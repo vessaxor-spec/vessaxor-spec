@@ -3,7 +3,10 @@
 
 The profile identity remains hand-authored. This script only refreshes:
 - current public release metadata for explicitly allowlisted repositories;
-- the curated public "Now" block from profile/status.toml.
+- the curated public Current Work block from profile/status.toml.
+
+The curated state has an explicit review date and maximum age. A stale review is a
+hard failure rather than permission to present old narrative as current.
 
 No account-wide repository discovery is performed.
 """
@@ -18,6 +21,7 @@ import tomllib
 import urllib.error
 import urllib.parse
 import urllib.request
+from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -33,6 +37,33 @@ ALLOWED_REPOSITORIES = {
 def load_status() -> dict:
     with STATUS.open("rb") as handle:
         return tomllib.load(handle)
+
+
+def validate_freshness(status: dict) -> date:
+    profile = status["profile"]
+    reviewed_raw = profile["reviewed_at"]
+    max_age_days = profile["max_age_days"]
+
+    if not isinstance(reviewed_raw, str):
+        raise ValueError("profile.reviewed_at must be an ISO date string")
+    if not isinstance(max_age_days, int) or isinstance(max_age_days, bool) or max_age_days <= 0:
+        raise ValueError("profile.max_age_days must be a positive integer")
+
+    try:
+        reviewed_at = date.fromisoformat(reviewed_raw)
+    except ValueError as exc:
+        raise ValueError("profile.reviewed_at must use YYYY-MM-DD") from exc
+
+    age_days = (date.today() - reviewed_at).days
+    if age_days < 0:
+        raise ValueError("profile.reviewed_at cannot be in the future")
+    if age_days > max_age_days:
+        raise RuntimeError(
+            "curated profile state is stale: "
+            f"reviewed {age_days} days ago; maximum is {max_age_days} days"
+        )
+
+    return reviewed_at
 
 
 def github_json(url: str) -> dict:
@@ -92,14 +123,14 @@ def project_meta(release: dict, status: str) -> str:
     return f"[`{release['tag']}`]({release['url']}) · `{status}`"
 
 
-def build_now(status: dict) -> str:
-    profile = status["profile"]
+def build_current_work(status: dict, reviewed_at: date) -> str:
     projects = status["projects"]
     research = status["research"]
+    reviewed_label = reviewed_at.strftime("%d %b %Y").lstrip("0")
 
     return "\n".join(
         [
-            f"<sub>Current public focus · {profile['as_of']}</sub>",
+            f"<sub>Curated public focus · reviewed {reviewed_label}</sub>",
             "",
             f"- **TEO:** {projects['teo']['focus']}",
             f"- **GroX:** {projects['grox']['focus']}",
@@ -110,6 +141,7 @@ def build_now(status: dict) -> str:
 
 def regenerate() -> str:
     status = load_status()
+    reviewed_at = validate_freshness(status)
     projects = status["projects"]
 
     teo_repo = projects["teo"]["repository"]
@@ -134,7 +166,7 @@ def regenerate() -> str:
         "GROX_META",
         project_meta(grox_release, projects["grox"]["status"]),
     )
-    document = replace_block(document, "NOW", build_now(status))
+    document = replace_block(document, "NOW", build_current_work(status, reviewed_at))
     return document
 
 
