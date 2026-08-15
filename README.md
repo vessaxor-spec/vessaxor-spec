@@ -70,3 +70,58 @@ An independent Vessel built around bounded authority, durable state, evidence-be
 </td>
 </tr>
 </table>
+
+---
+
+## What I'm Exploring
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### Persistent Intelligence
+
+How AI systems retain useful continuity across sessions, runtimes, models, and infrastructure without confusing memory with truth.
+
+</td>
+<td width="33%" valign="top">
+
+### Governed Autonomy
+
+How increasingly capable agents can act with meaningful independence while preserving explicit authority boundaries, evidence, reversibility, and human sovereignty.
+
+</td>
+<td width="33%" valign="top">
+
+### Model-Independent Systems
+
+How architectures can survive rapid model and provider turnover by treating intelligence as a replaceable capability rather than the system itself.
+
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+
+### Verification
+
+How independent checks, counter-evidence, and observable execution can turn plausible AI output into accountable system behavior.
+
+</td>
+<td width="33%" valign="top">
+
+### Human–AI Command
+
+How humans and AI systems can divide intent, judgment, execution, escalation, and accountability without collapsing those roles together.
+
+</td>
+<td width="33%" valign="top">
+
+### Systems That Evolve
+
+How an AI system can improve its routing, memory, capabilities, and operating structure without silently expanding its own authority.
+
+</td>
+</tr>
+</table>
+
+> **The direction:** intelligence that can change rapidly without making the surrounding system disposable.
