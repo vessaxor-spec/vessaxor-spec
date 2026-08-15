@@ -48,7 +48,9 @@
 
 A runnable reference control plane for responsibility, capability, routing, fallback, authority, and independent verification across changing models and providers.
 
-`v1.0.0` · `reference_operational`
+<!-- AUTO:TEO_META:START -->
+[`v1.0.0`](https://github.com/vessaxor-spec/The-ever-evolving-orchestration-/releases/tag/v1.0.0) · `reference_operational`
+<!-- AUTO:TEO_META:END -->
 
 **Models evolve. Responsibilities endure.**
 
@@ -61,7 +63,9 @@ A runnable reference control plane for responsibility, capability, routing, fall
 
 An independent Vessel built around bounded authority, durable state, evidence-bearing execution, recovery, and governed capability expansion.
 
-`v0.7.0` · `APEX QUALIFIED`
+<!-- AUTO:GROX_META:START -->
+[`v0.7.0`](https://github.com/vessaxor-spec/GroX/releases/tag/v0.7.0) · `APEX QUALIFIED`
+<!-- AUTO:GROX_META:END -->
 
 **Commander → GorXu → Divisions → Crew**
 
@@ -73,11 +77,13 @@ An independent Vessel built around bounded authority, durable state, evidence-be
 
 ## Now
 
+<!-- AUTO:NOW:START -->
 <sub>Current public focus · August 2026</sub>
 
-- **TEO:** durable host-integration assimilation across sessions, with framework validation kept distinct from empirical real-host proof.
-- **GroX:** stewardship of the `v0.7.0` Apex-qualified baseline, preserving authority, evidence, recovery, and verifier independence through future evolution.
-- **Research:** persistent continuity, governed autonomy, and verification as system properties rather than model features.
+- **TEO:** Durable host-integration assimilation across sessions, with framework validation kept distinct from empirical real-host proof.
+- **GroX:** Stewardship of the Apex-qualified baseline, preserving authority, evidence, recovery, and verifier independence through future evolution.
+- **Research:** Persistent continuity, governed autonomy, and verification as system properties rather than model features.
+<!-- AUTO:NOW:END -->
 
 ---
 
