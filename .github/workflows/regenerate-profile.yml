@@ -1,6 +1,11 @@
 name: Regenerate profile
 
 on:
+  push:
+    paths:
+      - "profile/status.toml"
+      - "scripts/regenerate_profile.py"
+      - ".github/workflows/regenerate-profile.yml"
   schedule:
     - cron: "17 3 * * *"
   workflow_dispatch:
