@@ -73,6 +73,16 @@ An independent Vessel built around bounded authority, durable state, evidence-be
 
 ---
 
+## Now
+
+<sub>Current public focus · August 2026</sub>
+
+- **TEO:** testing durable host-integration assimilation across sessions while keeping framework validation, process-local evidence, and empirical real-host proof explicitly separate.
+- **GroX:** stewarding the `v0.7.0` Apex-qualified baseline so future evolution preserves authority boundaries, evidence integrity, recovery, and independent verification rather than inheriting qualification by default.
+- **Research thread:** pushing on persistent continuity, governed autonomy, and verification as system properties rather than model features.
+
+---
+
 ## What I'm Exploring
 
 <table>
