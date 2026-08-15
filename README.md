@@ -125,3 +125,15 @@ How an AI system can improve its routing, memory, capabilities, and operating st
 </table>
 
 > **The direction:** intelligence that can change rapidly without making the surrounding system disposable.
+
+---
+
+## Builder Profile
+
+I work at the intersection of **strategic operations, partner ecosystems, circular economy, and human development**. I am also an **ICF-accredited coach**.
+
+That background shapes how I build AI systems: not as isolated demos, but as operating environments where capability, authority, evidence, continuity, and human judgment have to coexist.
+
+My interest is less in making a model appear intelligent and more in designing the surrounding system so intelligence can be **useful, accountable, persistent, and replaceable**.
+
+<sub>Operator by profession. Systems builder by obsession.</sub>
