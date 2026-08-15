@@ -25,9 +25,6 @@
   <a href="https://github.com/vessaxor-spec/GroX">
     <img src="https://img.shields.io/badge/GroX-AI_Vessel-181717?style=flat-square&logo=github&logoColor=white" alt="GroX" />
   </a>
-  <a href="https://github.com/vessaxor-spec?tab=followers">
-    <img src="https://img.shields.io/github/followers/vessaxor-spec?label=Follow&style=flat-square&logo=github" alt="GitHub followers" />
-  </a>
 </p>
 
 <sub><strong>Models are temporary. Systems endure.</strong></sub>
@@ -36,7 +33,7 @@
 
 ---
 
-## Selected Systems
+## Flagship Systems
 
 <table>
 <tr>
@@ -75,25 +72,15 @@ An independent Vessel built around bounded authority, durable state, evidence-be
 
 ---
 
-## Now
+## Current Work
 
 <!-- AUTO:NOW:START -->
-<sub>Current public focus · August 2026</sub>
+<sub>Curated public focus · reviewed 16 Aug 2026</sub>
 
 - **TEO:** Durable host-integration assimilation across sessions, with framework validation kept distinct from empirical real-host proof.
 - **GroX:** Stewardship of the Apex-qualified baseline, preserving authority, evidence, recovery, and verifier independence through future evolution.
 - **Research:** Persistent continuity, governed autonomy, and verification as system properties rather than model features.
 <!-- AUTO:NOW:END -->
-
----
-
-## Builder Profile
-
-I build and maintain **AI systems, orchestration architectures, and autonomous-agent research** through versioned repositories, executable implementations, tests, and evidence-backed releases.
-
-My GitHub work focuses on turning architectural ideas into systems that can be inspected, challenged, reproduced, and evolved without losing authority boundaries, continuity, or verification discipline.
-
-<sub>Build the system. Preserve the evidence. Evolve deliberately.</sub>
 
 ---
 
