@@ -1,5 +1,6 @@
 [profile]
-as_of = "August 2026"
+reviewed_at = "2026-08-16"
+max_age_days = 45
 
 [projects.teo]
 repository = "vessaxor-spec/The-ever-evolving-orchestration-"
