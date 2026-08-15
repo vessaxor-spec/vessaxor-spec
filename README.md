@@ -147,3 +147,20 @@ That background shapes how I build AI systems: not as isolated demos, but as ope
 My interest is less in making a model appear intelligent and more in designing the surrounding system so intelligence can be **useful, accountable, persistent, and replaceable**.
 
 <sub>Operator by profession. Systems builder by obsession.</sub>
+
+---
+
+## Selected Principles
+
+- **The model is not the architecture.** Models should be replaceable without forcing the operating system around them to be reinvented.
+- **Competence does not imply authority.** A system being capable of an action is not the same as being permitted to take it.
+- **Evidence before confidence.** Plausibility is useful; observable proof is stronger.
+- **Memory is infrastructure, not mythology.** Useful continuity requires provenance, correction, consolidation, and the ability to forget.
+- **Consequential work deserves independent verification.** The actor and the verifier should not collapse into the same role when the stakes justify separation.
+- **Evolution must not silently expand power.** Better routing, memory, tools, or reasoning should improve capability without rewriting authority.
+
+<div align="center">
+
+<sub><strong>Build for replacement. Govern for consequence. Keep the human seat explicit.</strong></sub>
+
+</div>
