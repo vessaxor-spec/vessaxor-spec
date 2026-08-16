@@ -1,33 +1,16 @@
 <div align="center">
 
-<h1>
-  VESSAXOR
-  <img src="https://github.githubassets.com/images/mona-whisper.gif" height="34" alt="GitHub Mona" />
-</h1>
+# VESSAXOR
 
-<p>
-  <strong>Building persistent AI systems, governed orchestration, and autonomous digital intelligence.</strong>
-  <br />
-  <em>Where models are components. Decisions, memory, verification, and execution form the system.</em>
-</p>
+### Persistent AI systems · governed orchestration · evidence-bearing autonomy
 
-<p>
-  <code>AI SYSTEMS</code> ·
-  <code>AGENT ORCHESTRATION</code> ·
-  <code>AUTONOMOUS EXECUTION</code> ·
-  <code>HUMAN–AI OPERATING MODELS</code>
-</p>
+Building public AI systems where **models remain replaceable, authority stays explicit, execution produces evidence, and continuity survives beyond a single session**.
 
-<p>
-  <a href="https://github.com/vessaxor-spec/The-ever-evolving-orchestration-">
-    <img src="https://img.shields.io/badge/TEO-Orchestration-181717?style=flat-square&logo=github&logoColor=white" alt="TEO" />
-  </a>
-  <a href="https://github.com/vessaxor-spec/GroX">
-    <img src="https://img.shields.io/badge/GroX-AI_Vessel-181717?style=flat-square&logo=github&logoColor=white" alt="GroX" />
-  </a>
-</p>
+[**Living Systems Lab**](https://vessaxor-spec.github.io/) ·
+[**TEO**](https://github.com/vessaxor-spec/The-ever-evolving-orchestration-) ·
+[**GroX**](https://github.com/vessaxor-spec/GroX)
 
-<sub><strong>Models are temporary. Systems endure.</strong></sub>
+`AI SYSTEMS` · `ORCHESTRATION` · `PERSISTENCE` · `VERIFICATION` · `GOVERNED AUTONOMY`
 
 </div>
 
@@ -39,36 +22,58 @@
 <tr>
 <td width="50%" valign="top">
 
+<a href="https://github.com/vessaxor-spec/The-ever-evolving-orchestration-">
+  <img src="https://raw.githubusercontent.com/vessaxor-spec/The-ever-evolving-orchestration-/main/assets/banner/teo-banner-hd-optimized.png" alt="The Ever-Evolving Orchestration" width="100%" />
+</a>
+
 ### [The Ever-Evolving Orchestration](https://github.com/vessaxor-spec/The-ever-evolving-orchestration-)
 
 **Vendor-neutral orchestration specification**
 
-A runnable reference control plane for responsibility, capability, routing, fallback, authority, and independent verification across changing models and providers.
+A runnable reference control plane for deciding **which intelligence should do the work, under what authority, with which fallback, and with what verification**.
 
 <!-- AUTO:TEO_META:START -->
 [`v1.0.0`](https://github.com/vessaxor-spec/The-ever-evolving-orchestration-/releases/tag/v1.0.0) · `reference_operational`
 <!-- AUTO:TEO_META:END -->
 
-**Models evolve. Responsibilities endure.**
+**Responsibility → capability → implementation → verification**
 
 </td>
 <td width="50%" valign="top">
+
+<a href="https://github.com/vessaxor-spec/GroX">
+  <img src="https://raw.githubusercontent.com/vessaxor-spec/GroX/main/assets/banner/grox-banner-hd-optimized.png" alt="GroX persistent AI command environment" width="100%" />
+</a>
 
 ### [GroX](https://github.com/vessaxor-spec/GroX)
 
 **Persistent AI command environment**
 
-An independent Vessel built around bounded authority, durable state, evidence-bearing execution, recovery, and governed capability expansion.
+An independent Vessel for translating **Commander intent into bounded Missions, durable execution, attributable evidence, independent verification, and recoverable continuity**.
 
 <!-- AUTO:GROX_META:START -->
 [`v0.7.1`](https://github.com/vessaxor-spec/GroX/releases/tag/v0.7.1) · `APEX QUALIFIED`
 <!-- AUTO:GROX_META:END -->
 
-**Commander → GorXu → Divisions → Crew**
+**Commander → Pilot GorXu → Divisions → Standing Crew**
 
 </td>
 </tr>
 </table>
+
+---
+
+## Two Systems, Different Jobs
+
+| | TEO | GroX |
+|---|---|---|
+| Primary concern | orchestration architecture | persistent AI command and execution |
+| Core question | who or what should do the work, under which controls? | how does Commander intent become durable, bounded action? |
+| Governing surfaces | responsibility, capability, risk, routing, fallback, verification | Missions, Mission Orders, Crew, tools, state, evidence, recovery |
+| Continuity | provider and model independence | source, cognitive, and operational continuity |
+| Evidence boundary | evidence-aware finalization and independent verification | attributable execution evidence and independent verification |
+
+TEO and GroX are **independent public systems**. They share a design discipline around bounded authority, verification, evidence, and replaceable intelligence, but neither is presented here as a command layer inside the other.
 
 ---
 
@@ -84,7 +89,7 @@ An independent Vessel built around bounded authority, durable state, evidence-be
 
 ---
 
-## Research Themes
+## What I Am Exploring
 
 <table>
 <tr>
@@ -92,21 +97,21 @@ An independent Vessel built around bounded authority, durable state, evidence-be
 
 ### Persistent Intelligence
 
-Continuity across sessions, runtimes, models, and infrastructure without confusing memory with truth.
+How useful AI systems retain continuity across sessions, runtimes, models, and infrastructure without confusing remembered state with authoritative truth.
 
 </td>
 <td width="33%" valign="top">
 
 ### Governed Autonomy
 
-Meaningful agent independence without surrendering authority boundaries, evidence, reversibility, or human sovereignty.
+How agents gain meaningful operational independence while authority, escalation, reversibility, and human sovereignty remain explicit.
 
 </td>
 <td width="33%" valign="top">
 
 ### Verifiable Evolution
 
-Systems that improve routing, memory, tools, and reasoning without silently expanding power or inheriting trust they have not re-earned.
+How systems improve routing, memory, tools, and reasoning without silently widening power or inheriting trust they have not re-earned.
 
 </td>
 </tr>
@@ -114,15 +119,25 @@ Systems that improve routing, memory, tools, and reasoning without silently expa
 
 ---
 
-## Selected Principles
+## Design Discipline
 
-- **The model is not the architecture.** Intelligence should be replaceable without making the surrounding system disposable.
-- **Competence does not imply authority.** Capability and permission are separate questions.
-- **Evidence before confidence.** Plausibility matters; observable proof matters more.
-- **Evolution must not silently expand power.** Better systems should become more capable without becoming less governed.
+| Principle | What it means in practice |
+|---|---|
+| **The model is not the architecture.** | Intelligence should be replaceable without making the surrounding system disposable. |
+| **Competence does not imply authority.** | Knowing how to act does not grant permission to act. |
+| **Evidence before confidence.** | Plausibility matters; observable proof matters more. |
+| **Failure must not widen power.** | Fallback, retry, recovery, and replanning must preserve authority boundaries. |
+| **Continuity is infrastructure.** | State, memory, recovery, and provenance should survive beyond a single model session. |
+| **Evolution must re-earn trust.** | More capable systems should not silently become less governed. |
+
+---
 
 <div align="center">
 
-<sub><strong>Build for replacement. Govern for consequence. Keep the human seat explicit.</strong></sub>
+### Systems should outlive the models that happen to run them.
+
+[**Explore the portfolio**](https://vessaxor-spec.github.io/) ·
+[**Open TEO**](https://github.com/vessaxor-spec/The-ever-evolving-orchestration-) ·
+[**Open GroX**](https://github.com/vessaxor-spec/GroX)
 
 </div>
