@@ -4,8 +4,6 @@
 
 <div align="center">
 
-# VESSAXOR
-
 ### Persistent AI systems · governed orchestration · evidence-bearing autonomy
 
 Building public AI systems where **models remain replaceable, authority stays explicit, execution produces evidence, and continuity survives beyond a single session**.
