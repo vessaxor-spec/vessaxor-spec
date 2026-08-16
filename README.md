@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner/vessaxor-hero-banner.png" alt="VESSAXOR hero banner" width="100%">
+</p>
+
 <div align="center">
 
 # VESSAXOR
