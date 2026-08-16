@@ -5,12 +5,12 @@ max_age_days = 45
 [projects.teo]
 repository = "vessaxor-spec/The-ever-evolving-orchestration-"
 status = "reference_operational"
-focus = "Durable host-integration assimilation across sessions, with framework validation kept distinct from empirical real-host proof."
+focus = "Evidence-governed live execution expansion, with provider-backed controlled documentation replay evidence as the next gate."
 
 [projects.grox]
 repository = "vessaxor-spec/GroX"
 status = "APEX QUALIFIED"
-focus = "Stewardship of the Apex-qualified baseline, preserving authority, evidence, recovery, and verifier independence through future evolution."
+focus = "Post-Apex Operational Evolution Program 001, with A6 longitudinal operational drift analysis as the next approved stage."
 
 [research]
-focus = "Persistent continuity, governed autonomy, and verification as system properties rather than model features."
+focus = "Persistent continuity, bounded authority, evidence-bearing execution, and verification as system properties rather than model features."
