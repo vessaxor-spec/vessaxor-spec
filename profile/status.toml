@@ -14,3 +14,5 @@ focus = "Post-Apex Operational Evolution Program 001, with A6 longitudinal opera
 
 [research]
 focus = "Persistent continuity, bounded authority, evidence-bearing execution, and verification as system properties rather than model features."
+
+# Temporary validation trigger; reverted in the next commit.
