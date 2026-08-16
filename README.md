@@ -61,7 +61,7 @@ A runnable reference control plane for responsibility, capability, routing, fall
 An independent Vessel built around bounded authority, durable state, evidence-bearing execution, recovery, and governed capability expansion.
 
 <!-- AUTO:GROX_META:START -->
-[`v0.7.0`](https://github.com/vessaxor-spec/GroX/releases/tag/v0.7.0) · `APEX QUALIFIED`
+[`v0.7.1`](https://github.com/vessaxor-spec/GroX/releases/tag/v0.7.1) · `APEX QUALIFIED`
 <!-- AUTO:GROX_META:END -->
 
 **Commander → GorXu → Divisions → Crew**
@@ -77,9 +77,9 @@ An independent Vessel built around bounded authority, durable state, evidence-be
 <!-- AUTO:NOW:START -->
 <sub>Curated public focus · reviewed 16 Aug 2026</sub>
 
-- **TEO:** Durable host-integration assimilation across sessions, with framework validation kept distinct from empirical real-host proof.
-- **GroX:** Stewardship of the Apex-qualified baseline, preserving authority, evidence, recovery, and verifier independence through future evolution.
-- **Research:** Persistent continuity, governed autonomy, and verification as system properties rather than model features.
+- **TEO:** Evidence-governed live execution expansion, with provider-backed controlled documentation replay evidence as the next gate.
+- **GroX:** Post-Apex Operational Evolution Program 001, with A6 longitudinal operational drift analysis as the next approved stage.
+- **Research:** Persistent continuity, bounded authority, evidence-bearing execution, and verification as system properties rather than model features.
 <!-- AUTO:NOW:END -->
 
 ---
