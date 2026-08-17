@@ -54,7 +54,7 @@ A runnable reference control plane for deciding **which intelligence should do t
 An independent Vessel for translating **Commander intent into bounded Missions, durable execution, attributable evidence, independent verification, and recoverable continuity**.
 
 <!-- AUTO:GROX_META:START -->
-[`v0.7.1`](https://github.com/vessaxor-spec/GroX/releases/tag/v0.7.1) · `APEX QUALIFIED`
+[`v0.8.0`](https://github.com/vessaxor-spec/GroX/releases/tag/v0.8.0) · `APEX QUALIFIED`
 <!-- AUTO:GROX_META:END -->
 
 **Commander → Pilot GorXu → Divisions → Standing Crew**
@@ -82,10 +82,10 @@ TEO and GroX are **independent public systems**. They share a design discipline 
 ## Current Work
 
 <!-- AUTO:NOW:START -->
-<sub>Curated public focus · reviewed 16 Aug 2026</sub>
+<sub>Curated public focus · reviewed 17 Aug 2026</sub>
 
 - **TEO:** Evidence-governed live execution expansion, with provider-backed controlled documentation replay evidence as the next gate.
-- **GroX:** Post-Apex Operational Evolution Program 001, with A6 longitudinal operational drift analysis as the next approved stage.
+- **GroX:** Post-Apex Evolution Program 001 is integrated and v0.8.0 is published; future evolution must preserve the qualified Apex invariants rather than inherit them automatically.
 - **Research:** Persistent continuity, bounded authority, evidence-bearing execution, and verification as system properties rather than model features.
 <!-- AUTO:NOW:END -->
 
