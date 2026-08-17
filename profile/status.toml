@@ -1,5 +1,5 @@
 [profile]
-reviewed_at = "2026-08-16"
+reviewed_at = "2026-08-17"
 max_age_days = 45
 
 [projects.teo]
@@ -10,7 +10,7 @@ focus = "Evidence-governed live execution expansion, with provider-backed contro
 [projects.grox]
 repository = "vessaxor-spec/GroX"
 status = "APEX QUALIFIED"
-focus = "Post-Apex Operational Evolution Program 001, with A6 longitudinal operational drift analysis as the next approved stage."
+focus = "Post-Apex Evolution Program 001 is integrated and v0.8.0 is published; future evolution must preserve the qualified Apex invariants rather than inherit them automatically."
 
 [research]
 focus = "Persistent continuity, bounded authority, evidence-bearing execution, and verification as system properties rather than model features."
